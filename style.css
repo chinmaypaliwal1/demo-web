@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap");
+body {
+  background-color: bisque;
+}
+h1 {
+  max-width: 500px;
+  margin: auto;
+  font-family: "Oswald", sans-serif;
+  padding-left: 20rem;
+  padding-top: 1rem;
+}
+.h1 {
+  max-width: 500px;
+  margin: auto;
+  font-family: "Oswald", sans-serif;
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+h2 {
+  max-width: 500px;
+  margin: auto;
+  font-family: "Oswald", sans-serif;
+  padding-left: 8rem;
+  padding-top: 1rem;
+}
+.h2 {
+  max-width: 500px;
+  margin: auto;
+  font-family: "Oswald", sans-serif;
+  padding-left: 17rem;
+  padding-top: 1rem;
+  margin-bottom: 1rem;
+}
+h3 {
+  max-width: 500px;
+  margin-top: rem;
+  margin-bottom: rem;
+  padding: 20px;
+  justify-content: space-between;
+}
+.search {
+  color: white;
+  float: right;
+  padding: 10px;
+  border: 2px;
+}
+h4 {
+  padding-top: 33px;
+  font-size: 20px;
+  padding-left: 35px;
+  padding-right: 35px;
+  margin-top: 10px;
+}
+p {
+  max-width: 300px;
+  margin: 2px;
+  padding: 20px 80px;
+  font-size: 20px;
+}
+.paragraph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  background-color: black;
+}
+ul {
+  overflow: auto;
+}
+li {
+  float: left;
+  list-style: none;
+  padding: 15px;
+}
+li a {
+  color: white;
+  text-decoration: none;
+  margin: 10px 18px;
+}
+li a:hover {
+  color: blue;
+}
+img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 400px;
+  border-radius: 53%;
+}
+
+button {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin: auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  border-width: 10px;
+}
+button:hover {
+  color: rebeccapurple;
+}
